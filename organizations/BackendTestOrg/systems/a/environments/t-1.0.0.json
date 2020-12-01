@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "id": "f5a1f4f6-1c33-4cc3-a692-1121094f95f7",
+    "name": "t",
+    "description": "t"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "407fbe9b-96f8-41fc-801f-f2eb5b4dc66b",
+      "name": "/organizations/BackendTestOrg/systems/a"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Environment",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2020-11-15T18:36:42.687",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-15T18:36:42.703",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "id": "ff6330f2-db17-4d2c-9290-5e66801eb24e",
+    "name": "S"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "407fbe9b-96f8-41fc-801f-f2eb5b4dc66b",
+      "name": "/organizations/BackendTestOrg/systems/a"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Subscription",
+    "properties": [],
+    "history": {
+      "created": "2020-11-16T16:59:34.437",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-23T13:11:02.167",
+      "updatedBy": "unknown",
+      "mirrored": "2020-11-23T15:06:10.673",
+      "completions": []
+    }
+  },
+  "publication": {
+    "identity": {
+      "id": "8d1601b4-7825-4225-bbd6-da98afdb3a78",
+      "name": "/organizations/BackendTestOrg/systems/a/publications/P"
+    },
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "datasets": [],
+  "interfaces": [],
+  "topologies": []
+}

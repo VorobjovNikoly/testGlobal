@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "id": "eef3a12f-8e55-437b-8e49-9686a59f01f8",
+    "name": "Instance:MySQL",
+    "description": "Instance of MySQL platform to support relational database."
+  },
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8413270a-db42-4563-a9b6-60f4d780e147",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Instance"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Instance",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-05-01T07:19:16.98",
+      "createdBy": "sashaberger@hotmail.com",
+      "updated": "2020-05-01T07:19:16.98",
+      "updatedBy": "unknown",
+      "mirrored": "2020-05-01T07:17:11.893",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-05-01T06:40:50.597",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/1"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-05-01T07:15:34.35",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/7"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 1,
+      "revision": 0
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "698f0d2e-f0aa-4d61-a4c3-41386c704a29",
+          "name": "Server",
+          "description": "Name of the server database deploy to."
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 255,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "f98f98df-ffe7-43fa-bdc3-2619e57048ed",
+          "name": "Connection",
+          "description": "Connection string for the server"
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

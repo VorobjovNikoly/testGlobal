@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "id": "ab5cecd3-4231-4b0c-8e47-f8dfb0687376",
+    "name": "IssueType",
+    "description": "Enumerator of the issue types."
+  },
+  "version": {
+    "major": 1,
+    "minor": 2,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "9c8e049b-2ecb-4989-b97d-8bd5c030527c",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Messaging"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "842"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "372"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#FFC107"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"default"},"links":[],"frame":{"position":{"left":758,"top":429,"width":0,"height":0}},"style":{"border":{"left":{"color":"#FFC107"}}}}],
+    "history": {
+      "created": "2016-10-24T01:04:01.09",
+      "createdBy": "unknown",
+      "updated": "2016-10-24T01:04:01.09",
+      "updatedBy": "unknown",
+      "mirrored": "2017-12-12T06:17:23.07",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-12-11T18:44:31.057",
+          "completedBy": "mailfornik@gmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/issues/2441/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2017-12-12T06:16:29.417",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/issues/2441/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 2,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "618d0022-b5b1-47f6-915e-c1462d0cf2af",
+          "name": "Type",
+          "description": "Type of the issue."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "size": 0,
+        "optional": false,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "58ff9ae7-6482-44ae-8c1d-de02379e063a",
+          "name": "Description",
+          "description": "Description for the issue type."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "a4f5ce56-1d1e-471b-9be2-31f717d4a38c",
+          "name": "Code",
+          "description": "Code for the issue type."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "65eb4735-5264-466a-b80d-f1d54d1d2065",
+          "name": "Period",
+          "description": "Factor value for period. Issue period defined by issue priority will be adjused by specified factor."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "Float",
+        "optional": false,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "ff6d8917-6a29-4045-9d05-b52eec9a0267",
+          "name": "Settings",
+          "description": "This is referemce to dataset, which defines structure for first record of issue advance settings. If it is empty, no specific data required for this type of issue."
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": false,
+        "access": 0,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Initiative",
+          "Initiative for busness solution.",
+          "0",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Feature",
+          "Feature for system or application.",
+          "1",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "Discussion",
+          "Discussion about any topic.",
+          "2",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "Work Item",
+          "Work Item for changes in design or code.  Default type for issue.",
+          "3",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "Support Request",
+          "Request for support from team or organization.",
+          "4",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "Design Suggestion",
+          "Suggestion for object design.",
+          "5",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 7,
+        "values": [
+          "Design Problem",
+          "Problem in object design.",
+          "6",
+          "1.0",
+          ""
+        ]
+      },
+      {
+        "index": 8,
+        "values": [
+          "Code Defect",
+          "Problem in implementation.",
+          "7",
+          "1.0",
+          ""
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

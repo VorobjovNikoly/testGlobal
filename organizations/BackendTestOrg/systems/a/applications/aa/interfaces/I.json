@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "id": "3cbe6fe4-767a-41f6-8e24-ecbbeb017647",
+    "name": "I"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "91a73466-0e84-4d6c-b780-7dd46adeaa34",
+      "name": "/organizations/BackendTestOrg/systems/a/applications/aa"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Interface",
+    "properties": [],
+    "history": {
+      "created": "2020-11-16T17:54:55.043",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-23T13:11:09.517",
+      "updatedBy": "unknown",
+      "mirrored": "2020-11-23T15:06:10.673",
+      "completions": []
+    }
+  },
+  "parameters": [],
+  "responses": [],
+  "operations": [],
+  "layouts": [],
+  "examples": []
+}

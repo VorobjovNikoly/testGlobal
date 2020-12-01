@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "id": "4e350f58-f0dc-4941-9eb9-898e7d234d12",
+    "name": "fdg",
+    "description": "fds"
+  },
+  "object": {
+    "parent": {
+      "id": "acba0057-82f9-4f50-a0a8-b3bfaa836d96",
+      "name": "/organizations/BackendTestOrg"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2020-11-15T17:42:06.813",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-15T17:42:06.813",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "id": "0140be02-8eb6-4143-9607-0792bba4b265",
+    "name": "forSub"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8d462158-6e3b-4bd9-b2a0-886fe08dd10f",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2020-11-25T13:43:47.563",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-25T13:47:09",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-25T13:47:08.197",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub/issues/5382/messages/1"
+        }
+      ]
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

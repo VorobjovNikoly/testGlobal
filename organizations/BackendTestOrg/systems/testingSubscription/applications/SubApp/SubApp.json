@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "c37449d8-0d0f-46d2-a971-70259c11eb2d",
+    "name": "SubApp"
+  },
+  "object": {
+    "parent": {
+      "id": "2035aeee-848e-48d8-98df-2e5b3ff1db1f",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "properties": [],
+    "history": {
+      "created": "2020-11-25T13:50:35.583",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-25T13:50:35.583",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

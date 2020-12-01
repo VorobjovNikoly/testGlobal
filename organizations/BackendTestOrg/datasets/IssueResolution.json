@@ -1,0 +1,185 @@
+{
+  "identity": {
+    "id": "548f12c3-db98-4b8d-8f0d-c817d1038c9f",
+    "name": "IssueResolution",
+    "description": "Enumerator of the issue resolutions. Issue resolution defines how issue was resolved."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "9c8e049b-2ecb-4989-b97d-8bd5c030527c",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Messaging"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "831"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "692"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#8F70CB"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"default"},"links":[],"frame":{"position":{"left":654,"top":819,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}}],
+    "history": {
+      "created": "2018-07-12T06:55:56.047",
+      "createdBy": "unknown",
+      "updated": "2018-07-12T06:55:56.047",
+      "updatedBy": "sashaberger@hotmail.com",
+      "mirrored": "2017-11-01T05:30:05.027",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-11-01T05:15:51.873",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/datasets/MessageProperty/issues/2325/messages/14"
+        },
+        {
+          "status": "Approved",
+          "completed": "2017-11-01T05:29:28.087",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/datasets/MessageProperty/issues/2325/messages/14"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "1e9c593d-a96d-415c-a261-cef64550b936",
+          "name": "Name",
+          "description": "Issue resolution name."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "f948cc15-4439-47bf-9521-054274cb4738",
+          "name": "Description",
+          "description": "Discription for the issue resolution."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "24824d16-e375-49cd-b3bc-8e4435c8cc43",
+          "name": "Code",
+          "description": "Code for the issue resolution."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Fixed",
+          "Issue was fixed by developer.",
+          "0"
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Aproved",
+          "Issue was resolved as aproval for request.",
+          "1"
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "Declined",
+          "Issue was resolve as rejection of request or sajetion.",
+          "2"
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "Not Reproduced",
+          "Issue wasn't reproduced in current state of the system.",
+          "3"
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "By Design",
+          "Feature was designed this way and it is not an Issue.",
+          "4"
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "Duplicate",
+          "Issue is duplicate of some other issue. Issue it duplicate to will be specified in link.",
+          "5"
+        ]
+      },
+      {
+        "index": 7,
+        "values": [
+          "Postponed",
+          "Issue was postponed to next development cycle.",
+          "6"
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

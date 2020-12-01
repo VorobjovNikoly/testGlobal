@@ -1,0 +1,196 @@
+{
+  "identity": {
+    "id": "49fe4450-d979-4d2a-8fe7-6371582ac49b",
+    "name": "FormatType",
+    "description": "Enumerator of format types. Format type define way format operate and additional format string it can require. "
+  },
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "2ba8ee11-e532-442b-8b0d-b6eea3fb4031",
+      "name": "/organizations/Apdax/systems/DifHub/applications/System"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-03-30T08:09:46.66",
+      "createdBy": "sashaberger@hotmail.com",
+      "updated": "2020-03-30T08:09:46.66",
+      "updatedBy": "unknown",
+      "mirrored": "2020-01-04T07:21:37.947",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2020-01-04T07:21:24.397",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/datasets/FormatType/issues/4633/messages/3"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 1,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "79853cb9-efdc-4ec1-bdd1-74171ce9e82b",
+          "name": "Type",
+          "description": "Name of the format type."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "ecc5864a-96b8-4ab5-8f64-eff75bebfcf8",
+          "name": "Description",
+          "description": "Description of the format type."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "4481f931-dee1-4f42-8625-f1db769f4c0c",
+          "name": "Code",
+          "description": "Code of the format"
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Short",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "af15a10f-d038-4f80-b7e3-ba66950f98b1",
+          "name": "Sample",
+          "description": "Sample for the format string."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "e71559a7-67fe-4b44-adb5-6dfcf902a886",
+          "name": "Restriction",
+          "description": "Restrictions for presentation on format usage. By  default type used in format of field. When specified it can be used for Examples. "
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 0,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "JSON",
+          "Data will be represented as JSON document.",
+          "0",
+          "JSON",
+          ""
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "YEAR",
+          "Year of the date.",
+          "2",
+          "1960",
+          ""
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "DATE",
+          "Date and time  of the date time value.",
+          "3",
+          "01/26/2016 16:55.07",
+          ""
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "TIME",
+          "Time of the date time value.",
+          "4",
+          "16:55.07",
+          ""
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "URI",
+          "String formatted as URL.",
+          "5",
+          "/aaa/bbb/ccc",
+          ""
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "PHONE",
+          "International phone number",
+          "6",
+          "+1 (555) 111-2222",
+          ""
+        ]
+      },
+      {
+        "index": 7,
+        "values": [
+          "EMAIL",
+          "Email format of the data",
+          "7",
+          "aaa.bbb@ccc.com",
+          ""
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

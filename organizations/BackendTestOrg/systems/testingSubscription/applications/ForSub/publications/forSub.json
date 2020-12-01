@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "id": "ccccf1e6-bd85-43f0-90ba-1b8ac9310e33",
+    "name": "forSub"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8d462158-6e3b-4bd9-b2a0-886fe08dd10f",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "Publication",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-11-25T13:43:09.7",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-26T10:37:24.54",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    },
+    "alias": ""
+  },
+  "termsOfService": "",
+  "licenseName": "",
+  "licenseUrl": "",
+  "datasets": [
+    {
+      "identity": {
+        "id": "0140be02-8eb6-4143-9607-0792bba4b265",
+        "name": "forSub"
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "fieldNames": []
+    }
+  ],
+  "interfaces": [
+    {
+      "identity": {
+        "id": "47812229-1ef0-45ef-aaec-d47c20b9aff1",
+        "name": "forSub"
+      },
+      "version": {
+        "major": 2,
+        "minor": 0,
+        "revision": 0
+      },
+      "layoutNames": [
+        "Test"
+      ],
+      "operationNames": [
+        "name",
+        "sub",
+        "test"
+      ]
+    },
+    {
+      "identity": {
+        "id": "992ef379-8e88-4160-850d-da9257c78117",
+        "name": "forSub2"
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "layoutNames": [],
+      "operationNames": []
+    }
+  ],
+  "topologies": [],
+  "layouts": [
+    {
+      "identity": {
+        "id": "86d6c639-ec80-4986-beed-1f29f2fc19f7",
+        "name": "test",
+        "description": ""
+      },
+      "platform": "Git",
+      "unit": " localTest",
+      "location": {},
+      "schedule": {},
+      "policies": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "identity": {
+    "id": "4bbe4a7e-2f79-494d-b9a7-7e2316c445d6",
+    "name": "firstDataSet"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "63de8881-9139-40ef-ad85-cfa3f679f645",
+      "name": "/organizations/BackendTestOrg/systems/et/applications/aplicationSecond"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2020-11-23T12:14:47.58",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-23T13:11:12.59",
+      "updatedBy": "unknown",
+      "mirrored": "2020-11-23T15:06:10.673",
+      "completions": []
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "id": "3c69a3f0-1f31-4ac0-9fbc-ffe0044725cf",
+    "name": "test"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "c37449d8-0d0f-46d2-a971-70259c11eb2d",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/SubApp"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Subscription",
+    "properties": [],
+    "history": {
+      "created": "2020-11-26T10:40:18.037",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-26T10:41:56.587",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  },
+  "publication": {
+    "identity": {
+      "id": "ccccf1e6-bd85-43f0-90ba-1b8ac9310e33",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub/publications/forSub"
+    },
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "datasets": [
+    {
+      "identity": {
+        "id": "0140be02-8eb6-4143-9607-0792bba4b265",
+        "name": "forSub"
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "layoutNames": [],
+      "fieldNames": []
+    }
+  ],
+  "interfaces": [
+    {
+      "identity": {
+        "id": "47812229-1ef0-45ef-aaec-d47c20b9aff1",
+        "name": "forSub"
+      },
+      "version": {
+        "major": 2,
+        "minor": 0,
+        "revision": 0
+      },
+      "layoutNames": [
+        "Test"
+      ],
+      "operationNames": [
+        "name",
+        "sub",
+        "test"
+      ]
+    }
+  ],
+  "topologies": []
+}

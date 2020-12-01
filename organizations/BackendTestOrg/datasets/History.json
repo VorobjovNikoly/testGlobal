@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "id": "ca23ffb0-49c7-456d-a9a1-79dee3185f79",
+    "name": "History",
+    "description": "Structure for object history. Object history provides information when object was updated and in what completion state it is now."
+  },
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "2ba8ee11-e532-442b-8b0d-b6eea3fb4031",
+      "name": "/organizations/Apdax/systems/DifHub/applications/System"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Structure",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "650"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "200"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#4CAF6D"
+      }
+    ],
+    "elements": [],
+    "history": {
+      "created": "2020-05-11T06:10:49.967",
+      "createdBy": "unknown",
+      "updated": "2020-05-11T06:10:49.967",
+      "updatedBy": "unknown",
+      "mirrored": "2018-05-04T06:08:22.75",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2018-05-04T06:08:09.137",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/datasets/History/issues/2785/messages/3"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 3,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "db314a28-7fa2-4c56-b331-cc15b06e24cf",
+          "name": "Created",
+          "description": "Date of object creation."
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "DateTime",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "e29942ab-986e-466d-bfeb-ad62cdd7281f",
+          "name": "CreatedBy",
+          "description": "User created object."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "01e55fd4-5a0b-465e-9952-9c4714e6899a",
+          "name": "Updated",
+          "description": "Date of object last update."
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "DateTime",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "4902e9f2-c52a-4ed8-acfa-18ccb557003c",
+          "name": "UpdatedBy",
+          "description": "User last updated object."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "10ada627-e3d8-4341-8792-a348d34edcde",
+          "name": "UpdateNote",
+          "description": "Mote about goal of object update."
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "f44f31b1-ee4e-4f55-8e8a-cd0728ae4b7e",
+          "name": "UpdateMessage",
+          "description": "Message in issue associated with changes in object."
+        },
+        "order": 6,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 4096,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "056a8aa2-af0c-4f2e-a088-ae61768aa013",
+          "name": "Mirrored",
+          "description": "Date object was mirrored into GitHub."
+        },
+        "order": 7,
+        "usage": "Property",
+        "count": 1,
+        "type": "DateTime",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "aec149fc-90d9-417a-bf4a-bfa1891346ce",
+          "name": "Retired",
+          "description": "Date object was retired."
+        },
+        "order": 8,
+        "usage": "Property",
+        "count": 1,
+        "type": "DateTime",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "b02a2fb3-5857-4d51-a187-918a0700a75f",
+          "name": "RetiredBy",
+          "description": "User retired object."
+        },
+        "order": 9,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "a3055812-3b05-48c3-9dfc-ac79ae49eeb0",
+          "name": "Completions",
+          "description": "Array of completion statuses reached by this object."
+        },
+        "order": 10,
+        "usage": "Property",
+        "count": 0,
+        "type": "Structure",
+        "reference": "/organizations/Apdax/systems/DifHub/applications/System/datasets/Completion/versions/1.3.0",
+        "subscription": "",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

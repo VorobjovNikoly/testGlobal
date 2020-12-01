@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "id": "9c04ff40-821c-47d2-85f1-9c9c66b4b224",
+    "name": "sub"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "c37449d8-0d0f-46d2-a971-70259c11eb2d",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/SubApp"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Interface",
+    "properties": [],
+    "history": {
+      "created": "2020-11-25T13:56:36.597",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-25T13:57:04.147",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-25T13:57:03.853",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/testingSubscription/applications/SubApp/issues/5385/messages/1"
+        }
+      ]
+    }
+  },
+  "parameters": [
+    {
+      "location": "Body",
+      "field": {
+        "identity": {
+          "id": "4ac24092-62a8-4ac7-af90-e2ad7e3b7828",
+          "name": "sub",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "responses": [],
+  "operations": [],
+  "layouts": [],
+  "examples": []
+}

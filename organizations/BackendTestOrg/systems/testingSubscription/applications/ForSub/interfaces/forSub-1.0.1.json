@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "id": "47812229-1ef0-45ef-aaec-d47c20b9aff1",
+    "name": "forSub"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 1
+  },
+  "object": {
+    "parent": {
+      "id": "8d462158-6e3b-4bd9-b2a0-886fe08dd10f",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "Interface",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-11-26T08:45:40.917",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-26T09:20:03.917",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "mirrored": "2020-11-26T10:46:20.953",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-26T09:16:28.5",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub/issues/5386/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-11-26T09:19:26.04",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub/issues/5386/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 2,
+      "minor": 0,
+      "revision": 1
+    },
+    "alias": ""
+  },
+  "parameters": [
+    {
+      "location": "Body",
+      "field": {
+        "identity": {
+          "id": "5a7711a7-41b2-4a2d-a912-3792c5b16160",
+          "name": "forSub",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "code": "200",
+      "field": {
+        "identity": {
+          "id": "47f76b41-aceb-4608-8d0e-1157cd00cc0e",
+          "name": "forSub",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "identity": {
+        "id": "5d708e5a-f473-4ccb-aaf0-cd5a10f6aaa0",
+        "name": "sub",
+        "description": "sub"
+      },
+      "deprecated": false,
+      "action": "GET",
+      "parameters": [
+        {
+          "id": "5a7711a7-41b2-4a2d-a912-3792c5b16160",
+          "name": "forSub",
+          "description": ""
+        }
+      ],
+      "responses": [
+        {
+          "id": "47f76b41-aceb-4608-8d0e-1157cd00cc0e",
+          "name": "forSub",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "identity": {
+        "id": "cb0eaefb-6397-4789-902f-efb23e41103c",
+        "name": "test",
+        "description": ""
+      },
+      "deprecated": false,
+      "action": "GET",
+      "parameters": [],
+      "responses": []
+    },
+    {
+      "identity": {
+        "id": "6b177ead-b202-476c-a9ba-c8ede9b51baf",
+        "name": "name",
+        "description": ""
+      },
+      "deprecated": false,
+      "action": "PUT",
+      "parameters": [],
+      "responses": []
+    }
+  ],
+  "layouts": [],
+  "examples": []
+}

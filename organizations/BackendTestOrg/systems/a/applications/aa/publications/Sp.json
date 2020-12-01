@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "id": "99fc65eb-59b1-4bef-a56b-26e627bfc767",
+    "name": "Sp"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "91a73466-0e84-4d6c-b780-7dd46adeaa34",
+      "name": "/organizations/BackendTestOrg/systems/a/applications/aa"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Publication",
+    "properties": [],
+    "history": {
+      "created": "2020-11-16T17:55:46.19",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-23T13:11:11.35",
+      "updatedBy": "unknown",
+      "mirrored": "2020-11-23T15:06:10.673",
+      "completions": []
+    }
+  },
+  "datasets": [],
+  "interfaces": [],
+  "topologies": [],
+  "layouts": []
+}

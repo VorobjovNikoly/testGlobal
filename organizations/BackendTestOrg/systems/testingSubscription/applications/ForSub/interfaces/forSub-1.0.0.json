@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "id": "47812229-1ef0-45ef-aaec-d47c20b9aff1",
+    "name": "forSub"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8d462158-6e3b-4bd9-b2a0-886fe08dd10f",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Interface",
+    "properties": [],
+    "history": {
+      "created": "2020-11-25T13:44:04.46",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-26T08:45:40.677",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-25T13:47:28.487",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub/issues/5383/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-11-26T08:45:09.117",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub/issues/5383/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 2,
+      "minor": 0,
+      "revision": 1
+    }
+  },
+  "parameters": [
+    {
+      "location": "Body",
+      "field": {
+        "identity": {
+          "id": "5a7711a7-41b2-4a2d-a912-3792c5b16160",
+          "name": "forSub",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "responses": [],
+  "operations": [],
+  "layouts": [],
+  "examples": []
+}

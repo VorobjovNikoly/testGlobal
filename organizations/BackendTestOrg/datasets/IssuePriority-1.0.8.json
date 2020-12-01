@@ -1,0 +1,192 @@
+{
+  "identity": {
+    "id": "fff88b58-bcbd-4217-8cf8-8cad60b3a3ac",
+    "name": "IssuePriority",
+    "description": "Enumerator of the issue priorities."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 8
+  },
+  "object": {
+    "parent": {
+      "id": "9c8e049b-2ecb-4989-b97d-8bd5c030527c",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Messaging"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "840"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "543"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#005588"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"default"},"links":[],"frame":{"position":{"left":783,"top":637,"width":0,"height":0}},"style":{"border":{"left":{"color":"#005588"}}}}],
+    "history": {
+      "created": "2016-10-24T01:04:01.09",
+      "createdBy": "unknown",
+      "updated": "2016-10-24T01:04:01.09",
+      "updatedBy": "unknown",
+      "mirrored": "2017-11-01T05:14:56.303",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-08-15T04:13:49.96",
+          "completedBy": "sashaberger@hotmail.",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/issues/1909/messages/3"
+        },
+        {
+          "status": "Approved",
+          "completed": "2017-11-01T05:14:52.267",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/issues/1909/messages/3"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 8
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "72d31af6-a04b-43ff-b9a2-8e65e377cd5e",
+          "name": "Name",
+          "description": "Issue priority name."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "size": 0,
+        "optional": false,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "7b0430d3-83d6-4fc2-b937-34fff6729102",
+          "name": "Description",
+          "description": "Description for issue priority."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "c89ea76c-05f8-4497-94ff-d3e76389a1d7",
+          "name": "Code",
+          "description": "Issue priority code."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "577dc690-5b65-49ae-b3ef-1d5ac8d4a574",
+          "name": "Period",
+          "description": "Time for issue of this priority to be resolved."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "TimeSpan",
+        "optional": true,
+        "access": 0,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Critical",
+          "Issue is critical. It is highest priority. Issue requeried immidiate attention and need to be resolved in short time.",
+          "0",
+          "1.00:00:00"
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Urgent",
+          "Urgent issue, need immidiate attention but have more time to resolve.",
+          "1",
+          "7.00:00:00"
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "Normal",
+          "Issue is normal priority and required regular attention.",
+          "2",
+          "30.00:00:00"
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "Low",
+          "Issue is low priotity compare to regular issues.",
+          "3",
+          "90.00:00:00"
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "Minimal",
+          "Issue have minimal priority and can wait for long.",
+          "4",
+          "365.00:00:00"
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

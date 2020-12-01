@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "id": "f431ea8d-cc8c-4872-9fe2-b4d59397f14b",
+    "name": "Instance:Hadoop",
+    "description": "Instance of Hadoop cluster. Hadoop is a BigData platform for data storage and processing."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8413270a-db42-4563-a9b6-60f4d780e147",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Instance"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Instance",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-05-01T07:19:17.623",
+      "createdBy": "sashaberger@hotmail.com",
+      "updated": "2020-05-01T07:19:17.623",
+      "updatedBy": "unknown",
+      "mirrored": "2020-05-01T07:17:11.893",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-05-01T06:49:41.187",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/4"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-05-01T07:15:34.35",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/7"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "2d0da73d-d6b9-49ed-ab4c-495ece2ca74e",
+          "name": "Cluster",
+          "description": "Name of Hadoop cluster."
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 255,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "2d8927aa-ac59-4130-82d2-fd9433a7e76c",
+          "name": "Root",
+          "description": "Root of cluster file system."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 255,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

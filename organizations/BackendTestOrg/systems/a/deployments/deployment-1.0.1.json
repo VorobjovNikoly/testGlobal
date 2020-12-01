@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "id": "8c132f0d-9082-4b6f-b778-05fe1ff76f5d",
+    "name": "deployment",
+    "description": "deployment"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 1
+  },
+  "object": {
+    "parent": {
+      "id": "407fbe9b-96f8-41fc-801f-f2eb5b4dc66b",
+      "name": "/organizations/BackendTestOrg/systems/a"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "Deployment",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-11-12T16:36:28.853",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-12T16:57:22.423",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-12T16:36:43.62",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/a/issues/5352/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-11-12T16:37:02.233",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/a/issues/5352/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 10
+    },
+    "alias": ""
+  },
+  "packages": [
+    {
+      "identity": {
+        "id": "5b22113c-68be-4966-9bbe-e6dfea8074a5",
+        "name": "Package",
+        "description": "Package"
+      },
+      "order": 1,
+      "source": null,
+      "metadata": null,
+      "applications": []
+    }
+  ]
+}

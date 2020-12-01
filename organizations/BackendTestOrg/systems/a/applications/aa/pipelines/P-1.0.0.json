@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "id": "8d6e2a64-c7db-496d-b33b-63c85b1b69ca",
+    "name": "P"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "91a73466-0e84-4d6c-b780-7dd46adeaa34",
+      "name": "/organizations/BackendTestOrg/systems/a/applications/aa"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Pipeline",
+    "properties": [],
+    "history": {
+      "created": "2020-11-16T17:55:13.247",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-23T13:11:10.137",
+      "updatedBy": "unknown",
+      "mirrored": "2020-11-23T15:06:10.673",
+      "completions": []
+    }
+  },
+  "activities": [],
+  "layouts": []
+}

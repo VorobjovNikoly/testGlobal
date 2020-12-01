@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "id": "407fbe9b-96f8-41fc-801f-f2eb5b4dc66b",
+    "name": "a",
+    "description": "a"
+  },
+  "object": {
+    "parent": {
+      "id": "acba0057-82f9-4f50-a0a8-b3bfaa836d96",
+      "name": "/organizations/BackendTestOrg"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "usage": "Generic",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2020-11-18T16:35:01.103",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-18T16:35:01.103",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    },
+    "alias": "test"
+  },
+  "locale": ""
+}

@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "id": "992ef379-8e88-4160-850d-da9257c78117",
+    "name": "forSub2"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8d462158-6e3b-4bd9-b2a0-886fe08dd10f",
+      "name": "/organizations/BackendTestOrg/systems/testingSubscription/applications/ForSub"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Interface",
+    "properties": [],
+    "history": {
+      "created": "2020-11-26T08:44:28.43",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-26T08:44:28.49",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  },
+  "parameters": [],
+  "responses": [],
+  "operations": [],
+  "layouts": [],
+  "examples": []
+}

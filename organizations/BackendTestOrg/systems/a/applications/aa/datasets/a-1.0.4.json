@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "id": "49961211-1ca8-4adb-bcba-c3faabecf052",
+    "name": "a",
+    "description": "a"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 4
+  },
+  "object": {
+    "parent": {
+      "id": "91a73466-0e84-4d6c-b780-7dd46adeaa34",
+      "name": "/organizations/BackendTestOrg/systems/a/applications/aa"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-11-12T14:54:47.093",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-12T15:30:52.653",
+      "updatedBy": "unknown",
+      "mirrored": "2020-11-12T14:56:27.737",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-12T14:54:58.843",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/a/applications/aa/issues/5347/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-11-12T14:55:20.64",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/BackendTestOrg/systems/a/applications/aa/issues/5347/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 10
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "507c4e62-5a8e-4847-b24a-6dfd914bafdb",
+          "name": "aa",
+          "description": "a"
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
