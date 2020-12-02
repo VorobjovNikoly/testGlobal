@@ -19,18 +19,18 @@
     "access": "External",
     "properties": [],
     "history": {
-      "created": "2020-12-01T13:33:54.037",
+      "created": "2020-12-02T13:45:33.68",
       "createdBy": "m.vorobiov@spd-ukraine.com",
-      "updated": "2020-12-01T13:33:54.037",
+      "updated": "2020-12-02T13:45:33.68",
       "updatedBy": "m.vorobiov@spd-ukraine.com",
       "completions": []
     },
     "alias": ""
   },
   "integration": {
-    "url": "https://mvorobiov@dev.azure.com/mvorobiov/ProjectForeTesting/_git/TestNew",
-    "user": "Ciskahu9Xijs1dCmRRYr0DkYdAqHwiK/JEQxL5+u/ZYtE9+j54LQXQi+nJ0zuP7Ki3ClBQqNYwTobX/BZ8iWjEJ/q/87t1KZSGqxDnwhiPZ+AViWluOSXnyvWZ1lICecnuqb9ofFf0Qr0nEtKUvcYSMlH1dBIbYwx0xF7x88IQGBLOWXyeUYysOFiklbLyBbpLraF6mNTsDVwdrGgReEyEZsbr0tiam8knSQPlLXMlhnzWXzmijiHN2U7tp4xa/FjHnTZgvOjUR2CgOuJt8yF81lXX1X8TKPux5xtpk018z3T0+TdlVQRNoL4Gzx0dqXaHJq4QLYzqfIABgCF32BpA==",
-    "password": "suJAs0yCT1IwX73C5Qdx8DT/2TNMIYoSU677QWqbd9a1d+leoitPSKNUWGlyJrs6YpzZW9Zw7IK2qdxE24v4YcBS+vPko5PuxdqJO7bKm32zuGVCMfxiZxekenmZ1Xj6Lb3jsjyYQAUWjwPRjFWVIEhY90L+1pFZnrlUuV4VNQiZFISW1tn+ypWnAHn4G7KWi4P+JEvoFG5vf2tjWsey1CiXOJ2uxhHqJzpr2nJ+SQYc7Nz2WyKUl6UAdT5Ph2xEynh0jHEt4SKwpBfFV+IVTUxAvc7MmbdE0FnG5IBKCqcwo9aQaKdq/PSn6GCTKFYTxavyMgXdyiGOkwImuGMoyA==",
+    "url": "https://github.com/VorobjovNikoly/testGlobal",
+    "user": "uc0qNQjWboUfZYAgypcpqiVn2d7tusve8NxozPcPeCjNjO1Z3gRuCmW3wkS/5y82fPUd0eXS9GK1cvPBH9cuJw0dRiZBVmABdp3+oNanfMfZGvZQlPhqzziGtE4WE/3mGs3JtyjsN8p/5CmKYzli9d8fbFwVFn0oQBsv9badzUJSpKdvfrDMpBnPcgzzwc/kVSk40HsmDiY7XfevcLR5ycsl9y9UnVAyoFvOndcdslnKwmOEYdmiwCFQSKUiUTsn6vmC8UVXgW+Q/NZiCssDIxmTt487BqFIJGR8ENKvFIsGzon8RjtR+y1QK/lAI5KeOuUYoFMacbzVuTF4V8v4XQ==",
+    "password": "qFugFtEJKE8DUUsXERCZRtP8T+EE+TNqpDcK/QrhOXiu6daw+XCJaG0BVSmk0koW7AU9EvBLz+CzdDbbrSl1Bz6ytF/b4o+1Gx9nw1v+VXXSHuJu0zYK/+i02Jly9JQJsI4Hfp5fPUXl1xH/L5z99NaHosbpi+y2YZhsNftS4COfxg59q1gEv38ZSx2/YDg5VodWPkpBAHHPizpJ7Fxh4K2JAZQi6+oNXQBSp1fv10NpoePxmOrNxeIG+9tnPJSWsN+oVcJAMsfVNMqPda2KcNWjOHkq+m/RS4pUHpDUouf1CCWwMIL5gazYj7YJVudl8gIKeoMhBYX1bnkD6tLS7A==",
     "integration": true,
     "status": ""
   }
