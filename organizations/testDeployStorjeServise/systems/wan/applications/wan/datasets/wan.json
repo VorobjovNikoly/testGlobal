@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "id": "90a99549-0890-437d-9fc8-427c7e15adb0",
+    "name": "wan"
+  },
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "6afeae60-b571-4a22-b1fa-60416ad7f005",
+      "name": "/organizations/testDeployStorjeServise/systems/wan/applications/wan"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-11-27T12:20:48.49",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-27T12:21:36.147",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-27T12:21:21.063",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/wan/applications/wan/issues/5391/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-11-27T12:21:35.87",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/wan/applications/wan/issues/5391/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 2,
+      "minor": 0,
+      "revision": 0
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "c5482155-4189-4982-ba38-558fb86b4c98",
+          "name": "test",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

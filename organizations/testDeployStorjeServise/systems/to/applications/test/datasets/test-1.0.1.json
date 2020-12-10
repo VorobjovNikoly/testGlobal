@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "id": "0db15920-bfe2-413d-9a7a-f0cd96a08359",
+    "name": "test"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 1
+  },
+  "object": {
+    "parent": {
+      "id": "636cfc95-d15f-4172-b7a9-6ea35e3405d3",
+      "name": "/organizations/testDeployStorjeServise/systems/to/applications/test"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-12-09T21:29:27.05",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-12-09T21:31:07.887",
+      "updatedBy": "unknown",
+      "mirrored": "2020-12-09T21:31:01.497",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-12-09T21:29:41.017",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/to/applications/test/issues/5397/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-12-09T21:29:53.787",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/to/applications/test/issues/5397/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 1
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "69f15dcd-fc6b-40d2-90ac-7a5a63fbcb58",
+          "name": "test",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

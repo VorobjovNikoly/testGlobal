@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "6afeae60-b571-4a22-b1fa-60416ad7f005",
+    "name": "wan"
+  },
+  "object": {
+    "parent": {
+      "id": "ab03882b-e00e-456d-a85c-0592d9f116ec",
+      "name": "/organizations/testDeployStorjeServise/systems/wan"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "properties": [],
+    "history": {
+      "created": "2020-11-27T11:39:24.08",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-27T11:39:24.08",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "636cfc95-d15f-4172-b7a9-6ea35e3405d3",
+    "name": "test"
+  },
+  "object": {
+    "parent": {
+      "id": "f88d9102-58f3-4f9d-b3b2-7f8493490b55",
+      "name": "/organizations/testDeployStorjeServise/systems/to"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "properties": [],
+    "history": {
+      "created": "2020-12-09T19:05:08.557",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-12-09T19:05:08.557",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

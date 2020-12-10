@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "f88d9102-58f3-4f9d-b3b2-7f8493490b55",
+    "name": "to"
+  },
+  "object": {
+    "parent": {
+      "id": "0f5df5b4-94bb-4c15-8b98-d46370360ad2",
+      "name": "/organizations/testDeployStorjeServise"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2020-11-27T12:17:54.263",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-27T12:17:54.263",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "id": "90a99549-0890-437d-9fc8-427c7e15adb0",
+    "name": "wan"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "6afeae60-b571-4a22-b1fa-60416ad7f005",
+      "name": "/organizations/testDeployStorjeServise/systems/wan/applications/wan"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2020-11-27T11:39:33.33",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-11-27T12:20:47.3",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-11-27T11:39:48.45",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/wan/applications/wan/issues/5390/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-11-27T11:41:17.753",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/wan/applications/wan/issues/5390/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 2,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
