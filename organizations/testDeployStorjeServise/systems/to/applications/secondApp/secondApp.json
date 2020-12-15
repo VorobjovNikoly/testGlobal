@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "933e51cf-f374-472e-9360-4833e35d0115",
+    "name": "secondApp"
+  },
+  "object": {
+    "parent": {
+      "id": "f88d9102-58f3-4f9d-b3b2-7f8493490b55",
+      "name": "/organizations/testDeployStorjeServise/systems/to"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "properties": [],
+    "history": {
+      "created": "2020-12-15T06:29:43.79",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-12-15T06:29:43.79",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}
