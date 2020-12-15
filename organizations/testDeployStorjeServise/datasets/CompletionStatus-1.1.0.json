@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "id": "f98c2a0c-89e5-49e4-8e0a-d4cf4d06f912",
+    "name": "CompletionStatus",
+    "description": "Enumerator for completion status available in organization. Architect only can add custom status here."
+  },
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "2ba8ee11-e532-442b-8b0d-b6eea3fb4031",
+      "name": "/organizations/Apdax/systems/DifHub/applications/System"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "436"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "0"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#FFC107"
+      }
+    ],
+    "elements": [],
+    "history": {
+      "created": "2016-10-24T01:04:01.09",
+      "createdBy": "unknown",
+      "updated": "2016-10-24T01:04:01.09",
+      "updatedBy": "unknown",
+      "mirrored": "2017-10-31T07:29:07.24",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-10-31T04:09:21.573",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/datasets/UserRole/issues/2321/messages/31"
+        },
+        {
+          "status": "Approved",
+          "completed": "2017-10-31T07:28:35.767",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/datasets/UserRole/issues/2321/messages/31"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 1,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "328036aa-c8a7-437c-8659-e54e9c34881e",
+          "name": "Status",
+          "description": "Name of the status."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "35a6c88a-3c61-47d5-90b9-9eba1194813e",
+          "name": "Description",
+          "description": "Description for the status."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "b87b7045-271b-49f5-a356-350afe925ceb",
+          "name": "Code",
+          "description": "Code of the status."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Finilized",
+          "Object changes finilized by developer.",
+          "0"
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Approved",
+          "Object changes approved by architect.",
+          "1"
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "SignedOff",
+          "Object changes signed off by compliance.",
+          "2"
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

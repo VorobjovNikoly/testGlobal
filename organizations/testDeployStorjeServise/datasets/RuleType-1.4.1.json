@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "id": "24ebe01b-0743-4670-90de-91d9738e2f50",
+    "name": "RuleType",
+    "description": "Enumerator of validation rule types."
+  },
+  "version": {
+    "major": 1,
+    "minor": 4,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "2ba8ee11-e532-442b-8b0d-b6eea3fb4031",
+      "name": "/organizations/Apdax/systems/DifHub/applications/System"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-05-10T03:49:55.567",
+      "createdBy": "unknown",
+      "updated": "2020-05-10T03:49:55.567",
+      "updatedBy": "unknown",
+      "mirrored": "2020-04-21T01:10:08.407",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-04-21T01:08:56.37",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/issues/4962/messages/1"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-04-21T01:09:21.923",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/issues/4962/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 4,
+      "revision": 0
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "67d19f1e-2ba5-404d-ad7f-b34eb7cb9113",
+          "name": "Rule",
+          "description": "Name of the rule type."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "0708ff10-03ef-4512-a801-ba0131c1d1e2",
+          "name": "Description",
+          "description": "Description of the rule type."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "84a070d9-87af-4db0-91ca-b7e3f46dc02b",
+          "name": "Code",
+          "description": "Code of the rule."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Short",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "91a57b2d-0c9c-4dcd-b853-72d3da1cdabd",
+          "name": "Sample",
+          "description": "Sample for the validation expresion."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 0,
+        "values": [
+          "Limit",
+          "Left and right limit for value. Expresion validate limits for value or limit size for string. Limit values represented in format of value.",
+          "0",
+          "min < %value < max"
+        ]
+      },
+      {
+        "index": 1,
+        "values": [
+          "Pattern",
+          "Regular expression specification",
+          "1",
+          "([^abc], [^a-z])"
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Custom",
+          "Custom rule represented by structure with usage Rule. Rule defined by filling specification in this structure.",
+          "3",
+          ""
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

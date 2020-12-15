@@ -1,0 +1,118 @@
+{
+  "identity": {
+    "id": "8e08959b-cc53-41d8-9811-eb66d070cd32",
+    "name": "Property",
+    "description": "Property of object. Property presented as Name/Value pair."
+  },
+  "version": {
+    "major": 1,
+    "minor": 2,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "2ba8ee11-e532-442b-8b0d-b6eea3fb4031",
+      "name": "/organizations/Apdax/systems/DifHub/applications/System"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Structure",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2019-04-25T06:55:07.193",
+      "createdBy": "unknown",
+      "updated": "2019-04-25T06:55:07.193",
+      "updatedBy": "unknown",
+      "mirrored": "2019-04-25T06:54:53.993",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-04-25T06:54:24.307",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/issues/3720/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-04-25T06:54:37.593",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/issues/3720/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 2,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "074e4ece-6808-40d7-8193-6574e688f19f",
+          "name": "Identity",
+          "description": "Identity of the property."
+        },
+        "order": 1,
+        "usage": "Identity",
+        "type": "Structure",
+        "reference": "/organizations/Apdax/datasets/Identity",
+        "optional": false,
+        "keys": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "128e6bb6-03b7-4b18-98b1-d0e3bd10f5e9",
+          "name": "Type",
+          "description": "Type of the property data."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Apdax/datasets/Type",
+        "optional": true,
+        "value": "String",
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "d1cc1998-97ba-4f05-9601-cbdd30330475",
+          "name": "Reference",
+          "description": "Reference to structure for types of structure, field or enum. Reference can be complete and include organization name, system name, application name and dataset name. Reference can be short and contain only dataset name. Version identify structure currently used and if not specified, it means last approved version."
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "15986fb4-bf84-467d-8ed9-bad784ff5f34",
+          "name": "Value",
+          "description": "Property value."
+        },
+        "order": 4,
+        "usage": "Value",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

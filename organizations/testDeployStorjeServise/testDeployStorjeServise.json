@@ -11,9 +11,9 @@
     "access": "External",
     "properties": [],
     "history": {
-      "created": "2020-12-15T11:47:29.747",
+      "created": "2020-12-15T16:49:25.7",
       "createdBy": "m.vorobiov@spd-ukraine.com",
-      "updated": "2020-12-15T11:47:29.747",
+      "updated": "2020-12-15T16:49:25.7",
       "updatedBy": "m.vorobiov@spd-ukraine.com",
       "completions": []
     },
@@ -21,8 +21,8 @@
   },
   "integration": {
     "url": "https://github.com/VorobjovNikoly/testGlobal.git",
-    "user": "PCmENYJEqxIJjWKi5ZZkImyuf3gFvPPAGBv1GdEYdHrq5PGQHUTRHdqnB8EzXBOj4rx2u17S3o23NhHJY8eNcqqkxhIoQN1NKxa9zfTiCSWRTb2JqYH9HjOv9SKYcjzui+WBwBhE8zxLkNRt8lbFYpAR9EqTvRQBaAWb4i8AxccQNpDKn3MgiP7agCKwO2tLAUfaP0hrcrmlUAmmbHvNXWyHRXTmd9QHQprdVsWDFA6i5lru9HkbRR/OffoJ/ELv+g3q1Jps98zdZEQrZYEHnw4K/akAbTBPCwfUE3BEKiVEPZ6Z0dGhIMUwn/WelmaS9UD43+4nOh7KfkGxMjeTmQ==",
-    "password": "T3wnixVdGmu6d0H64NuBvJ6t9FaDuKe6SB41jezeuIaFBolwCmXBCJNingMNVnhPkv+245QnnBRSyYrWh1blwQByKPt5qXa8oYZuT7ZLTu52WDATILz1H1Z0fDYJk7pYvCoH7T+WJek92wHKt/oO0TSCEdYBHtP6aIB+UMfmxzoifzf0oyTwoaoiFMPoSyE4q2yp/El5r55SCwD6gpnkXi9nIXNKqwoNpa1uU2kUdJ1enqmzbLwmCp3XAkduJ75W0JJpXdphPTJE5/jpol4Q8cnRSv/CZypKcVDXFftoeQq+6EF/8pZbPnGmbh+sz52AzTPt7aKmOhs978/dYuYI7g==",
+    "user": "mw59hFzjfYYg6Nb66bMja7NfkhH6IsITtwvP8DK3Y1ttLHtc0kQVeQeVObLbWTXKbaieWNUWi5ITZuOYoY87s4W3gu0Oo78h+Q/TSGk+mgXTHqNmYtEiG45E4xf4Lo9okwVPGqBW0FrMKjU69EIEvBHMwAzgniaeZv0CeA/ICElU3MqI74BbKCKqSJ3GbltjnX2WTtirsN6hBTK05mrMKddwv8mcD9Q8dtJFs+LWrK48mqpozQBqvERGcxe9YAzwqWvwpI9aTsgcEfSMJ6pMxNW0jrX13QB4ekfM+7U0JayCTHquNlrK0q6Bw302YXY7IDSXJRC0YTN787ybKqlTzw==",
+    "password": "Si8GvlW22SD1rdTBLPUTq5inOipfcHA0ny4a7Mr9qrzBeQU/2dhhDx7uSJhudk4DXrHfqnWvcS1KLHpldwv67Lxo1X0B6xMkNosaTb9xI3GrvnAVb0irFB/jmqwY5WcU1ZrZh1WnTjU/Yx9nG/2BjxlQZz9jNIdEX3CO+sbl2orDcctWYHOQ3GrcLobCV9kVP2GBHEQ9dKy7d3+va65dEkvkFtbuxL2+T31xnoXc6YAosvuJpc+IFsc8MkNH4dDsuDAO/+sKem3c1iXDJdUkQqUoHCR3oXQ9hAmXHzsMyBeeeU+DXHqihMBcqVPaV19q4lvl8aw+IClIb+b9MKfKFQ==",
     "integration": true,
     "status": ""
   }

@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "id": "708b05d5-e480-423e-b8b0-1d1fa792aa06",
+    "name": "dataSet"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "933e51cf-f374-472e-9360-4833e35d0115",
+      "name": "/organizations/testDeployStorjeServise/systems/to/applications/secondApp"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2020-12-15T11:58:10.893",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2020-12-15T16:46:38.427",
+      "updatedBy": "unknown",
+      "mirrored": "2020-12-15T12:00:04.033",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-12-15T11:58:23.643",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/to/applications/secondApp/issues/5400/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-12-15T11:58:39.207",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/testDeployStorjeServise/systems/to/applications/secondApp/issues/5400/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 2,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

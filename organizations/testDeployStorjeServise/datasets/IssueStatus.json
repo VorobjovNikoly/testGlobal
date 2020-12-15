@@ -1,0 +1,196 @@
+{
+  "identity": {
+    "id": "13cc97a6-90aa-4ff7-a91b-f2d0251f5009",
+    "name": "IssueStatus",
+    "description": "Enumerator of the issue states."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 1
+  },
+  "object": {
+    "parent": {
+      "id": "9c8e049b-2ecb-4989-b97d-8bd5c030527c",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Messaging"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "344"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "24"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#B63455"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"default"},"links":[],"frame":{"position":{"left":20,"top":33,"width":0,"height":0}},"style":{"border":{"left":{"color":"#B63455"}}}}],
+    "history": {
+      "created": "2018-07-12T06:55:56.063",
+      "createdBy": "unknown",
+      "updated": "2018-07-12T06:55:56.063",
+      "updatedBy": "sashaberger@hotmail.com",
+      "mirrored": "2017-11-01T05:30:05.027",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-11-01T05:16:29.797",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/datasets/MessageProperty/issues/2325/messages/14"
+        },
+        {
+          "status": "Approved",
+          "completed": "2017-11-01T05:29:28.087",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/datasets/MessageProperty/issues/2325/messages/14"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 1
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "fa9a0f3d-b4ab-405f-a37e-3566aa8037d4",
+          "name": "Name",
+          "description": "Issue status name."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "5ed7d4bb-761e-4d85-ba6b-905ca3d46039",
+          "name": "Description",
+          "description": "Description for the issue status."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "9efb6c14-653a-4de5-b7f9-cda35e3b4ec9",
+          "name": "Code",
+          "description": "Code for the issue status."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "2460fea3-15a2-43a4-9b15-f560ff9e9f83",
+          "name": "Period",
+          "description": "Procentage of period for issue resolution defined by issue priority and issue type. This is how much time dedicated to reach this status."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "Short",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Opened",
+          "Issue opened but not yet assign to right person.",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Assigned",
+          "Issue assigned for investigation.",
+          "1",
+          "5"
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "Investigated",
+          "Issue investigated and understood.",
+          "2",
+          "30"
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "Triaged",
+          "Issue evaluated for resolution and assigned.",
+          "3",
+          "5"
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "Resolved",
+          "Issue resolved.",
+          "4",
+          "30"
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "Closed",
+          "Issue resolution validated and confirmed.",
+          "5",
+          "30"
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

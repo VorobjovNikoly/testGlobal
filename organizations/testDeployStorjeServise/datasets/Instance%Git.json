@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "id": "472304cf-63b4-4cc2-b345-21d9e9de7736",
+    "name": "Instance:Git",
+    "description": "Instance of Git repository as platform for to maintain source code and metadata.."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8413270a-db42-4563-a9b6-60f4d780e147",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Instance"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Instance",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-05-01T07:19:17.823",
+      "createdBy": "sashaberger@hotmail.com",
+      "updated": "2020-05-01T07:19:17.823",
+      "updatedBy": "unknown",
+      "mirrored": "2020-05-01T07:17:11.893",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-05-01T07:13:24.95",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/5"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-05-01T07:15:34.35",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/7"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "84a270a4-ff0c-4a4b-aa8f-f052da3cd848",
+          "name": "Remote name",
+          "description": "Name of remote git repository."
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 255,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "1f07078e-4e6f-48f4-9c05-92f9b3973659",
+          "name": "URL",
+          "description": "Path to remote git repository."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

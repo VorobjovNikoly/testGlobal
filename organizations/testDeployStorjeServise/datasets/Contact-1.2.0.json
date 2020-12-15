@@ -1,0 +1,125 @@
+{
+  "identity": {
+    "id": "c4335c0b-b8bb-4150-b019-81aa87d4bf33",
+    "name": "Contact",
+    "description": "Contact information for object support."
+  },
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "2ba8ee11-e532-442b-8b0d-b6eea3fb4031",
+      "name": "/organizations/Apdax/systems/DifHub/applications/System"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Structure",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "774"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "13"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#565CCD"
+      }
+    ],
+    "elements": [],
+    "history": {
+      "created": "2018-02-16T09:56:49.857",
+      "createdBy": "unknown",
+      "updated": "2018-02-16T09:56:49.857",
+      "updatedBy": "metadb_admin",
+      "mirrored": "2017-10-31T07:29:07.24",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2017-10-31T07:28:35.767",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/System/datasets/UserRole/issues/2321/messages/31"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 1,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "d5c89056-faa5-43ea-b5e5-cca48012977f",
+          "name": "Identity",
+          "description": "Identity of organization or person."
+        },
+        "order": 1,
+        "usage": "Identity",
+        "type": "Structure",
+        "reference": "/organizations/Apdax/datasets/Identity",
+        "optional": false,
+        "access": 0,
+        "keys": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "3b556a9b-bea6-4d60-bbab-146a368baa1b",
+          "name": "URL",
+          "description": "The URL pointing to the contact information."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "format": "URI",
+        "access": 0,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "38752f58-3981-41fc-a42a-12ab02e00ffd",
+          "name": "EMail",
+          "description": "The email address of the contact person/organization."
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "format": "EMail",
+        "access": 0,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
