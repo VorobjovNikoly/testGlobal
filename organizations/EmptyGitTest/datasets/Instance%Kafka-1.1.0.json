@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "id": "be06fe45-bb1f-4681-b137-7f3751193592",
+    "name": "Instance:Kafka",
+    "description": "Instance of Kafka."
+  },
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8413270a-db42-4563-a9b6-60f4d780e147",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Instance"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Instance",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2020-05-01T07:19:17.173",
+      "createdBy": "sashaberger@hotmail.com",
+      "updated": "2020-05-01T07:19:17.173",
+      "updatedBy": "unknown",
+      "mirrored": "2020-05-01T07:17:11.893",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2020-05-01T06:43:22.94",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2020-05-01T07:15:34.35",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Instance/publications/Instance/issues/5022/messages/7"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 1,
+      "revision": 0
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "6013e970-d986-4093-bcac-81847f1d9237",
+          "name": "Cluster",
+          "description": "Name of Kafka cluster"
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 255,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "4ead4fc9-ba83-4c3a-97bd-8ed1ac7160f6",
+          "name": "Topic",
+          "description": "Name of Kafka topic."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 255,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

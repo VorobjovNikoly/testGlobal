@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "id": "058e425c-3cbf-4621-a088-10d72a7142f4",
+    "name": "TestData"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 2
+  },
+  "object": {
+    "parent": {
+      "id": "8a2956bc-838f-44d5-99bd-3f6634d4d163",
+      "name": "/organizations/EmptyGitTest/systems/test/applications/testApp"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2021-01-27T06:46:32.58",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2021-01-27T06:46:54.453",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 1
+    },
+    "alias": ""
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "fdda86c6-606d-44b6-bcef-36b97b6ebdce",
+          "name": "test",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "id": "57f00be7-9f26-4155-956c-128744c56d86",
+    "name": "MessageAction",
+    "description": "Enummerator for the message actions."
+  },
+  "version": {
+    "major": 1,
+    "minor": 5,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "9c8e049b-2ecb-4989-b97d-8bd5c030527c",
+      "name": "/organizations/Apdax/systems/DifHub/applications/Messaging"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "access": "External",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "1033"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "428"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#565CCD"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"default"},"links":[],"frame":{"position":{"left":1060,"top":435,"width":0,"height":0}},"style":{"border":{"left":{"color":"#565CCD"}}}}],
+    "history": {
+      "created": "2019-01-15T07:19:15.383",
+      "createdBy": "unknown",
+      "updated": "2019-01-15T07:19:15.383",
+      "updatedBy": "unknown",
+      "mirrored": "2019-01-15T07:19:08.25",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-01-15T07:18:55.923",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/issues/3525/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-01-15T07:19:05.383",
+          "completedBy": "sashaberger@hotmail.com",
+          "completedByMessage": "/organizations/Apdax/systems/DifHub/applications/Messaging/issues/3525/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 5,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "9dc43799-35f5-44ff-8d3b-3468ccd4ec80",
+          "name": "Action",
+          "description": "Action to execute on behave of user, which generated message."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "b2ec0b2c-de6f-4538-a4a0-d50e84e65aae",
+          "name": "Description",
+          "description": "Description of the action."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "eed6c709-84b8-4a64-8678-7b4d20b7c279",
+          "name": "Code",
+          "description": "Code for the message action."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "63832424-1577-424a-acc0-a89240818d6c",
+          "name": "Caption",
+          "description": "Caption on button or dialogs for action initiation."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "3ff445e5-40a1-478e-95f1-beffbc87f373",
+          "name": "Info",
+          "description": "Info visible as hardcoed part of the message generated when action executed."
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "2e010899-2b80-4272-91d7-3a75c4af5bc1",
+          "name": "Role",
+          "description": "User with permission of executing this action."
+        },
+        "order": 6,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Apdax/datasets/Role",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "9f38e966-2e36-471f-a4f6-be2b5df262bc",
+          "name": "Status",
+          "description": "Completion status changed by execution of this action."
+        },
+        "order": 7,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Apdax/systems/DifHub/applications/Messaging/subscriptions/System/datasets/CompletionStatus",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "0edb51a3-e6bf-4dd1-8164-ccbd44b3c5b8",
+          "name": "Completion",
+          "description": "Completion status changed to completion."
+        },
+        "order": 8,
+        "usage": "Property",
+        "count": 1,
+        "type": "Boolean",
+        "optional": true,
+        "value": "True",
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "2b051be1-cc34-4772-879a-7c8c13dd6de2",
+          "name": "Dependencies",
+          "description": "List of CompletionStatuses values, required for this acction to be available. If status not acived action and message invisable."
+        },
+        "order": 9,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "014d3b23-6204-4676-9e5e-6bdf5f6a0a7a",
+          "name": "Messages",
+          "description": "List of MessageTypes produced by execution of this action."
+        },
+        "order": 10,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "c878208c-a1a1-41a1-a7cd-b803105136ab",
+          "name": "Properties",
+          "description": "List of Properties needed for action to execute. Property must be suported by action. Currently supported properties: Organization, Department, User, Role. Sign equal means property mandatory and need to be specified."
+        },
+        "order": 11,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "FinalizeVersion",
+          "Completion of object version development. After Finalization of version it is freezed and cannot be changed. When object Finalized his history CompletionStatus for Finalized have Completed and CompletedBy specified.",
+          "0",
+          "Finalize new version of dataset",
+          "Version Finalized and frozen for changes.",
+          "Developer",
+          "Finalized",
+          "True",
+          "",
+          "VersionApproval",
+          ""
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "ApproveVersion",
+          "Approval by architect modifications for version Finalized by developer. Approval posible only if object Finalized and SignOff by complience. Approval update Completion for Approved status to valid Completed date and CompletionBy architect.",
+          "1",
+          "Approve new version of dataset",
+          "Version approved for deployment.",
+          "Architect",
+          "Approved",
+          "True",
+          "Finalized",
+          "Completion",
+          ""
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "SignoffVersion",
+          "Approval by complience department of Finalized version befor final approval by architect. SignedOff will update CompletionStatus in history by valid Completion date and CompleteBy compliance system architect.",
+          "2",
+          "SignOff new version of dataset",
+          "Version signed off by compliance department for deployment.",
+          "Architect",
+          "SignedOff",
+          "True",
+          "Finalized",
+          "Completion",
+          ""
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "RejectVersion",
+          "Rejection of approval for new version. After rejection version will be reverted to draft state for developer to fix it. In history Completed date for Finalize will be removed, CompletedBy will be updated to person rejected Finalization",
+          "3",
+          "Reject new version of dataset",
+          "Version completion rejected and reverted to draft state.",
+          "Developer",
+          "Finalized",
+          "False",
+          "Finalized",
+          "Rejection",
+          ""
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "RequestAccess",
+          "Request to architect for of access to object by new user. Action must have property which specify user name. Record for UserRole created for user to access current object with no completion status and upgrade role set. If object already exist requested upgrade role add to object.",
+          "4",
+          "Request access to organization properies",
+          "User requested access to properties of organization.",
+          "",
+          "Finalized",
+          "True",
+          "",
+          "AccessApproval",
+          "Organization, Department, Role, Object"
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "GrantAccess",
+          "Grant access by architect to object by new user. Action must have property which specify user name. Upgrade role cleared and specified role set. Completion status set to approved.",
+          "5",
+          "Grant access to organization properties",
+          "User granted access to property of organization.",
+          "Architect",
+          "Approved",
+          "True",
+          "",
+          "Completion",
+          "Role"
+        ]
+      },
+      {
+        "index": 7,
+        "values": [
+          "DenyAccess",
+          "Deny access by architect to object by new user. Action must have property which specify user name. Finalized completion status set without setting role value.",
+          "6",
+          "Deny access to organization properties",
+          "User denyed access to propery of organization.",
+          "Architect",
+          "Finalized",
+          "False",
+          "",
+          "Rejection",
+          ""
+        ]
+      },
+      {
+        "index": 8,
+        "values": [
+          "InviteUser",
+          "Invitation for user to join DifHub. When request send to join Demo Org, it is simple invitation to DifHub. For any organization except Demo Org request to join still required from user.",
+          "7",
+          "Invite user to join organization",
+          "User invited to joint DifHub organization.",
+          "",
+          "Finalized",
+          "True",
+          "",
+          "",
+          "User, Role"
+        ]
+      },
+      {
+        "index": 9,
+        "values": [
+          "FinalizeSettings",
+          "Completion of system or application settings development. After Finalization of settings it is freezed and cannot be changed. When setting Finalized his history CompletionStatus for Finalised have Completed and CompletedBy specified.",
+          "8",
+          "Finalize new version of advance settings",
+          "User Finalized modification of advance settings and freez it for changes.",
+          "Developer",
+          "Finalized",
+          "True",
+          "",
+          "SettingsApproval",
+          ""
+        ]
+      },
+      {
+        "index": 10,
+        "values": [
+          "ApproveSettings",
+          "Approval by architect modifications for version Finalized by developer. Approval posible only if object Finalized. Approval update Completion for Approved status to valid Completed date and CompletionBy architect.",
+          "9",
+          "Approve new version of advance settings",
+          "Advance settings modification approved.",
+          "Architect",
+          "Approved",
+          "True",
+          "Finalized",
+          "Completion",
+          ""
+        ]
+      },
+      {
+        "index": 11,
+        "values": [
+          "RejectSettings",
+          "Rejection of approval for new version of advance settings. After rejection version will be reverted to draft state for developer to fix it. In history Completed date for Finalize will be removed, CompletedBy will be updated to person rejected Finalization",
+          "10",
+          "Reject new version of advance settings",
+          "Modification in advance settings rejected and settings version reverted to draft state.",
+          "Developer",
+          "Finalized",
+          "False",
+          "Finalized",
+          "Rejection",
+          ""
+        ]
+      },
+      {
+        "index": 12,
+        "values": [
+          "FinalizePublication",
+          "Completion of publication version development. After Finalization of publication version it is freezed and cannot be changed. In history of publication completion status set for Finalized.",
+          "11",
+          "Finalize new version of publication",
+          "Publisher finalized specification of publication and request approval from application architect.",
+          "Developer",
+          "Finalized",
+          "True",
+          "",
+          "PublicationApproval",
+          ""
+        ]
+      },
+      {
+        "index": 13,
+        "values": [
+          "ApprovePublication",
+          "Approval by architect of application modifications in publication version finalized by developer. Approval completion status set for publication.",
+          "12",
+          "Approve new version of publication",
+          "Architect of application approved publication.",
+          "Architect",
+          "Approved",
+          "True",
+          "Finalized",
+          "Completion",
+          ""
+        ]
+      },
+      {
+        "index": 14,
+        "values": [
+          "RejectPublication",
+          "Rejection of modification fro publication version. After rejection publication finalization will be reverted to draft state for developer to fix it. For this finalized date will be cleanned up and CompletionBy set to user rejected publication.",
+          "13",
+          "Reject new version of publication",
+          "Application architect denyed changes for publication version and revert it to draft state.",
+          "Developer",
+          "Finalized",
+          "False",
+          "Finalized",
+          "Rejection",
+          ""
+        ]
+      },
+      {
+        "index": 15,
+        "values": [
+          "FinalizeSubscription",
+          "Completion of subscription version development. After finalization of subscription version it is freezed and cannot be changed. In history of subscription CompletionStatus set for Finalized.",
+          "14",
+          "Finalize new version of subscription",
+          "Subscriber finalzed specification of subscription and request approval from publication owner.",
+          "Developer",
+          "Finalized",
+          "True",
+          "",
+          "SubscriptionApproval",
+          ""
+        ]
+      },
+      {
+        "index": 16,
+        "values": [
+          "ApproveSubscription",
+          "Approval by architect of publication modifications in subscription version. Approval CompletionStatus set for subscription.",
+          "15",
+          "Approve new version of subscription",
+          "Owner of publication approved new version of subscription.",
+          "Architect",
+          "Approved",
+          "True",
+          "Finalized",
+          "Completion",
+          ""
+        ]
+      },
+      {
+        "index": 17,
+        "values": [
+          "RejectSubscription",
+          "Rejection of finilization for subscription version. After rejection subscription finalization will be reverted to draft state for developer to fix it. For this Finalized date will be cleanned and CompletionBy set to user rejected subscription.",
+          "16",
+          "Reject new version of subscription",
+          "Owner of publication denyed subscription and revert it to draft state.",
+          "Developer",
+          "Finalized",
+          "False",
+          "Finalized",
+          "Rejection",
+          ""
+        ]
+      }
+    ],
+    "examples": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "acc2014d-4502-4c19-9f39-8bca9ab76c62",
+    "name": "testApp"
+  },
+  "object": {
+    "parent": {
+      "id": "862ed3bb-4863-4c85-a506-7432350a1b2a",
+      "name": "/organizations/EmptyGitTest/systems/test 4"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "properties": [],
+    "history": {
+      "created": "2021-01-29T11:59:31.923",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2021-01-29T11:59:31.923",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

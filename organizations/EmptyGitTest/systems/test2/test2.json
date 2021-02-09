@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "3e45a123-d64e-4ce9-87f6-5afa3e46fa4b",
+    "name": "test2"
+  },
+  "object": {
+    "parent": {
+      "id": "27961f38-4277-4503-89cf-89e5dfbdd238",
+      "name": "/organizations/EmptyGitTest"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2021-01-14T17:57:23.357",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2021-01-14T17:57:23.357",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    }
+  }
+}

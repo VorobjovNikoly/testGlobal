@@ -1,0 +1,29 @@
+{
+  "identity": {
+    "id": "27961f38-4277-4503-89cf-89e5dfbdd238",
+    "name": "EmptyGitTest"
+  },
+  "object": {
+    "tags": [],
+    "documents": [],
+    "type": "Org",
+    "usage": "Department",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2021-02-09T13:00:01.4",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2021-02-09T13:00:01.4",
+      "updatedBy": "m.vorobiov@spd-ukraine.com",
+      "completions": []
+    },
+    "alias": ""
+  },
+  "integration": {
+    "url": "https://github.com/VorobjovNikoly/testGlobal.git",
+    "user": "QFBYk5mgKNPNrvFBB4tvALGkhv7aYy5LEjd0fDRy7kN4Ywv5W84Bmt3yyt5uzjjStS1togT0hnCLp19fc1XRUXsVVVL2KVGXaHttjweESGJV2+p4SWSrK73aXXLlVMxjDsKMFZRdPcdCEFPgQAmCucQw32P8OlpRSw6RGRMb/0nufMXSlZet0EKyQ5aKwVyGuS65KsiDMZmws/PuPz5y7EHhxYznk2rXeUomWkjhXrWT8yn6zbZ+rNyIMKBxpyAzdMmcumJkRFC3y0Gy8pznmmcjLnAQfWSzWC6i3sCI7iFPGBoglF2obJnaC1hZuWubPrOBCZkxii6SJXSr8XrXiw==",
+    "password": "UWy+kwxqsK+IIcNzI0GNrE8jTkV/BvI9T6UD+xOCLFBZ0t9o//t7EYMFlG8kvFZW5EKaTEmmj0k4nu24WO6ABGJ2JdQVKZiiRcj8gj04bvV6VVF4gcjaL+athBA69yJoPhsmkg5/tyHAX44zOCguGBn2bi/VUhmD2DbKg+nK+wY0T47dGYZ/mPIBy+r6XGYFpfMl7OpeZdeJ3+y9yeq+wzUX4XuoJCQgbff9k1gFTJnp+hywJAX5XlxZqYCp+J7l1fZpPmShWTCugELQ3f/WDXi2MIPGBRokhm1V0trjeKV0jF8/5jNOkJFRsRbnWjlnl0q3p8jRnI6G66M+wb3aMg==",
+    "integration": false,
+    "status": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "id": "05c2234f-940c-487d-8b25-80cde1319de1",
+    "name": "data set"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "8e174d81-9460-4c4c-889f-582be9065800",
+      "name": "/organizations/EmptyGitTest/systems/test3/applications/app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2021-01-29T06:14:51.553",
+      "createdBy": "m.vorobiov@spd-ukraine.com",
+      "updated": "2021-01-29T06:25:36.417",
+      "updatedBy": "unknown",
+      "mirrored": "2021-01-29T06:23:17.393",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2021-01-29T06:22:03.967",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/EmptyGitTest/systems/test3/applications/app/issues/5477/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2021-01-29T06:22:19.31",
+          "completedBy": "m.vorobiov@spd-ukraine.com",
+          "completedByMessage": "/organizations/EmptyGitTest/systems/test3/applications/app/issues/5477/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 2
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "c4ba82e8-d604-4b02-b7a6-50e1807a32f1",
+          "name": "test",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
